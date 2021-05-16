@@ -38,7 +38,6 @@ public class SignUpActivity extends AppCompatActivity {
 
         defineVariables();
         defineListeners();
-
     }
 
     private void defineListeners() {
