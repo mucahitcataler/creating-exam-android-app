@@ -173,7 +173,7 @@ public class SignUpActivity extends AppCompatActivity {
             try {
                 FileInputStream fis = openFileInput(username);
                 fis.close();
-                email.setError("E-mail adresi kullanılıyor.");
+                email.setError("E-mail adresi kullanılıyor");
                 return false;
             }
             catch (java.io.FileNotFoundException e) {

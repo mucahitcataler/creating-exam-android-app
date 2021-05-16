@@ -52,6 +52,7 @@ public class MainActivity extends AppCompatActivity {
                     intent = new Intent(v.getContext(), MenuActivity.class);
                     intent.putExtra("username", email.getEditText().getText().toString().split("@")[0]);
                     cleanTexts();
+                    Toast.makeText(MainActivity.this, "Başarıyla Giriş Yapıldı", Toast.LENGTH_SHORT).show();
                     startActivity(intent);
                 }
                 else{
