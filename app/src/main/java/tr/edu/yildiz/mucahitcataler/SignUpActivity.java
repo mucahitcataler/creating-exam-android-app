@@ -41,12 +41,6 @@ public class SignUpActivity extends AppCompatActivity {
 
     }
 
-    @Override
-    protected void onResume() {
-        super.onResume();
-        finish();
-    }
-
     private void defineListeners() {
         signUpButton.setOnClickListener(new View.OnClickListener() {
             @Override
