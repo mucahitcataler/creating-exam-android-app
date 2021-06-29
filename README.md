@@ -1,1 +1,1 @@
-# creating-exam-android-app
+# exam-creation-android-app
