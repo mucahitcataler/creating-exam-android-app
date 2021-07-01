@@ -1,5 +1,9 @@
 # exam-creation-android-app
 
+## Content
+
+Activity, Intent, RecyclerView, SharedPreferences, Internal Storage
+
 ## Screenshots
 
 <img src="screenshots/Screenshot_1621247616.png" width="250"> <img src="screenshots/Screenshot_1621247634.png" width="250">
